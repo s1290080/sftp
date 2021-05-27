@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta "charaset=UTF-8">
+    <title>
+      コード記録
+    </title>
+  </head>
+
+  <body>
+    <h1>コード記録</h1>
+    <h3>
+      書いたコードのまとめです。
+    </h3>
+
+    <dl>
+      <dt>Hello Worldと言ってくれるコード</dt>
+      <dd>#include <stdio.h>
+
+int main(){
+  printf( "Hello World\n");
+ return 0;
+}
+      </dd>
+      <dt>1234を3で割った余りを出すコード</dt>
+      <dd>#include<stdio.h>
+
+int main(){
+  int a=1234;
+  int b,result;
+  result=a%3;
+  b=result;
+
+  printf("%d \n",b);
+  return 0;
+
+}
+      </dd>
+      <dt>12の三乗を求めてくれるコード</dt>
+      <dd>#include<stdio.h>
+
+int main(){
+  int b,result;
+  b=12;
+  result=b*b*b;
+  printf("%d \n",result);
+  return 0;
+}
+      </dd>
+      <dt>nの段を返してくれるコード</dt>
+      <dd>include<stdio.h>
+
+int main(){
+  int n,i;
+  scanf("%d",&n);
+  for(i=1;i<=9;i++){
+    printf("%d",n*i);
+   printf("\n");
+  }
+return 0;
+}
+	     </dd>
+      <dt>n!が初めて100を超えるn</dt>
+      <dd>#include<stdio.h>
+
+int main(){
+  int n=1;
+  int i;
+  for(i=1;i<=100;i++){
+    n=n*i;
+      if(n>=100){
+	printf("%d\n",i);
+	break;
+      }
+  }
+return 0;
+}
+      </dd>
+      <dt>-1を入力するまで足し算をしてくれるコード</dt>
+      <dd>#include<stdio.h>
+
+int main(){
+  int sum=0;
+  int n;
+  for(;;){
+  scanf("%d",&n); 
+  if(n==-1){
+    printf("%d\n",sum);
+    break;
+  }
+  else if(n!=-1){
+    sum=sum+n;
+    printf("%d\n",sum);
+  }
+ }
+  return 0;
+}
+      </dd>
+    </dl>
+
+  </body>
+  </html>
+      
